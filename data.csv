@@ -1,11 +1,11 @@
 Data Gateway,Inventory ID,Node IP,UUID,Host Name,Loopback,Source Interface,Vrf,Manufacturer
-,172.188.2.39,172.188.2.39/16,,P10,192.168.0.14,,Mgmt-intf,Cisco Systems
+,172.188.2.39,172.188.2.39/16,,P10,192.168.0.14,,Mgmt-intf,Juniper Systems
 ,172.188.2.40,172.188.2.40/16,,P11,192.168.0.15,,Mgmt-intf,Cisco Systems
-,172.188.2.38,172.188.2.38/16,,P1,192.168.0.2,,Mgmt-intf,Cisco Systems
+,172.188.2.38,172.188.2.38/16,,P1,192.168.0.2,,Mgmt-intf,Brocade Systems
 ,172.188.2.37,172.188.2.37/16,,Ext-P,192.168.3.31,,Mgmt-intf,Cisco Systems
-,172.188.2.211,172.188.2.211/16,,P12,192.168.0.16,,Mgmt-intf,Cisco Systems
+,172.188.2.211,172.188.2.211/16,,P12,192.168.0.16,,Mgmt-intf,Brocade Systems
 ,172.188.2.43,172.188.2.43/16,,P14,192.168.0.18,,Mgmt-intf,Cisco Systems
-,172.188.2.212,172.188.2.212/16,,P15,192.168.0.19,,Mgmt-intf,Cisco Systems
+,172.188.2.212,172.188.2.212/16,,P15,192.168.0.19,,Mgmt-intf,Juniper Systems
 ,172.188.2.45,172.188.2.45/16,,P16,192.168.0.20,,Mgmt-intf,Cisco Systems
-,172.188.2.46,172.188.2.46/16,,P17,192.168.0.21,,Mgmt-intf,Cisco Systems
+,172.188.2.46,172.188.2.46/16,,P17,192.168.0.21,,Mgmt-intf,Brocade Systems
 ,172.188.2.213,172.188.2.213/16,,P19,192.168.0.23,,Mgmt-intf,Cisco Systems

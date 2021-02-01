@@ -5,10 +5,23 @@
 # cisco manufacturer node IP should have /24 subnet and brocade should have /32
 #########################################################################################
 import csv
-with open(r'data.csv','r') as csv_file:
+import sys
+import os
+try:
+   file_name = sys.argv[1]
+except Exception as e:
+   print("Please add the file name as argument")
+   sys.exit(1)
+files = [f for f in os.listdir('.') if os.path.isfile(f)]
+for f in files:
+    if f==file_name:
+        file_path=os.path.join(os.getcwd(),file_name)
+
+print("opening the given csv file")
+with open(file_path,'r') as csv_file:
     csv_reader = csv.DictReader(csv_file)
 
-
+    print("creating new csv file")
     with open(r'iptest1','w') as new_file:
         fieldnames = ['Host Name','Node IP','Manufacturer']
         csv_writer = csv.DictWriter(new_file,fieldnames=fieldnames, extrasaction='ignore')

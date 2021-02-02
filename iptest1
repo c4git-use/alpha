@@ -1,0 +1,11 @@
+Host Name,Node IP,Manufacturer
+P10,172.188.2.39/16,Juniper Systems
+P11,172.188.2.40/24,Cisco Systems
+P1,172.188.2.38/32,Brocade Systems
+Ext-P,172.188.2.37/24,Cisco Systems
+P12,172.188.2.211/32,Brocade Systems
+P14,172.188.2.43/24,Cisco Systems
+P15,172.188.2.212/16,Juniper Systems
+P16,172.188.2.45/24,Cisco Systems
+P17,172.188.2.46/32,Brocade Systems
+P19,172.188.2.213/24,Cisco Systems
